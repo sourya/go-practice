@@ -8,7 +8,7 @@ func main() {
 	fmt.Println(x)
 	x = 1989 // new value assigned "=" sign only
 	fmt.Println(x)
-	
+
 	y := 90 + 10 // variables must be used
 	// + is the operator
 	// 90 and 10 are the operands
