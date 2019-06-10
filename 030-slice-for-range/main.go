@@ -21,5 +21,3 @@ func main() {
 	}
 	// Ease of programming
 }
-
-

@@ -16,7 +16,6 @@ func main() {
 		},
 	}
 
-
 	for i, v := range x {
 		fmt.Printf("%v\n", i)
 		for index, favorite := range v {

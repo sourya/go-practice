@@ -11,4 +11,3 @@ func main() {
 	fmt.Println(x[1:6])
 
 }
-

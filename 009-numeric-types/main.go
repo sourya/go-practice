@@ -15,7 +15,7 @@ var age byte = 29
 func main() {
 	fmt.Println(age)
 	fmt.Printf("%T\n", age)
-	fmt.Println(runtime.GOOS) // windows
+	fmt.Println(runtime.GOOS)   // windows
 	fmt.Println(runtime.GOARCH) // amd64
 	// Dell Laptop
 }

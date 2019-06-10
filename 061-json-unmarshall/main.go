@@ -5,7 +5,6 @@ import (
 	"fmt"
 )
 
-
 type person struct {
 	First string `json:"First"`
 	Last  string `json:"Last"`

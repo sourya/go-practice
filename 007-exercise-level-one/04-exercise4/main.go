@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 type year int
+
 var x year // underlying type is int
 
 func main() {
@@ -11,4 +12,3 @@ func main() {
 	x = 2020
 	fmt.Println(x)
 }
-

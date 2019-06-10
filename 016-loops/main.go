@@ -7,4 +7,5 @@ func main() {
 		fmt.Println(i)
 	}
 }
+
 // Go is the best

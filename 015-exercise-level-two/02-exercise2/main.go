@@ -8,6 +8,6 @@ func main() {
 	c := (1989 >= 2019)
 	d := (a != b)
 	e := (1 > 0)
-	f:= ("a" < "b")
+	f := ("a" < "b")
 	fmt.Println(a, b, c, d, e, f)
 }

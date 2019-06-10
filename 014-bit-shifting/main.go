@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 const (
-	_ = iota // 0 place iota thrown away
+	_  = iota             // 0 place iota thrown away
 	kb = 1 << (iota * 10) // 10
 	mb = 1 << (iota * 10) // 20
 	gb = 1 << (iota * 10) // 30

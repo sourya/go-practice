@@ -27,8 +27,8 @@ func main() {
 		married: true,
 	}
 
-	fmt.Printf("%v %v is %v years old and has %v childen.\n" +
-		"Their names are %v and %v\n" +
+	fmt.Printf("%v %v is %v years old and has %v childen.\n"+
+		"Their names are %v and %v\n"+
 		"His favorite pogramming language is %v", p1.first, p1.last, p1.age,
-	len(p1.children), p1.children[1], p1.children[2], p1.languages[1])
+		len(p1.children), p1.children[1], p1.children[2], p1.languages[1])
 }

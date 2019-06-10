@@ -6,9 +6,9 @@ var y = 19
 
 func main() {
 	fmt.Println(y)
-	fmt.Printf("%T\n", y) // type
-	fmt.Printf("%b\n", y) // binary
-	fmt.Printf("%x\n", y) // hexadecimal
+	fmt.Printf("%T\n", y)  // type
+	fmt.Printf("%b\n", y)  // binary
+	fmt.Printf("%x\n", y)  // hexadecimal
 	fmt.Printf("%#x\n", y) // hexadecimal with zero x
 
 	y = 1
