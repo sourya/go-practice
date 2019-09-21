@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // GO ROUTINE 1
-func main()  {
+func main() {
 	c := make(chan int)
 
 	// GO ROUTINE 2
@@ -14,4 +14,3 @@ func main()  {
 	// TRANSFER DATA AT SAME TIME
 	fmt.Println(<-c)
 }
-

@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	// SEND ONLY CHANNEL
 	// DOES NOT WORK
-	c := make(chan <- int, 2)
+	c := make(chan<- int, 2)
 
 	c <- 19
 	c <- 42

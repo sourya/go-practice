@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// SEND ONLY CHANNEL
-	c := make(<- chan int, 2)
+	c := make(<-chan int, 2)
 
 	// ERROR
 	c <- 19
@@ -16,4 +16,3 @@ func main() {
 	fmt.Println("-----")
 	fmt.Printf("%T\n", c)
 }
-

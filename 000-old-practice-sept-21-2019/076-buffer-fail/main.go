@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// THIS CODE FAILS TO RUN
 	// Only one buffer declared
 	c := make(chan int, 1)
