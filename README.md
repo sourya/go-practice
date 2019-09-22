@@ -6,6 +6,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img width="700" align="center" src="https://github.com/brudnak/go-practice/blob/master/images/image-001.png" alt="Gopher Learning"/>
+</p>
+
 > At the time of Go's inception, only a decade ago, the programming world was different from today. Production software was usually written in C++ or Java, GitHub did not exist, most computers were not yet multiprocessors, and other than Visual Studio and Eclipse there were few IDEs or other high-level tools available at all, let alone for free on the Internet.
 >
 > Meanwhile, we had become frustrated by the undue complexity required to use the languages we worked with to develop server software. Computers had become enormously quicker since languages such as C, C++ and Java were first developed but the act of programming had not itself advanced nearly as much. Also, it was clear that multiprocessors were becoming universal but most languages offered little help to program them efficiently and safely.
