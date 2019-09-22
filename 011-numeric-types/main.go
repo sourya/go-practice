@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+)
 
 var x int
 var y float64
@@ -12,4 +15,7 @@ func main() {
 	fmt.Println(y)
 	fmt.Printf("%T\n", x)
 	fmt.Printf("%T\n", y)
+
+	fmt.Println(runtime.GOOS)
+	fmt.Println(runtime.GOARCH)
 }
