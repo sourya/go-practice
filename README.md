@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img width="700" align="center" src="https://github.com/brudnak/go-practice/blob/master/images/image-002.png" alt="Gopher at Laptop"/>
+  <img width="700" align="center" src="https://github.com/brudnak/go-practice/blob/master/images/image-002.gif" alt="Gopher at Laptop"/>
 </p>
 
 > At the time of Go's inception, only a decade ago, the programming world was different from today. Production software was usually written in C++ or Java, GitHub did not exist, most computers were not yet multiprocessors, and other than Visual Studio and Eclipse there were few IDEs or other high-level tools available at all, let alone for free on the Internet.
