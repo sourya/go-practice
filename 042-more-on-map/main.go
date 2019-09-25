@@ -25,4 +25,10 @@ func main() {
 	if v, ok := m["Andrew"]; ok {
 		fmt.Println("this should print an age:", v)
 	}
+
+	m["Penny"] = 10
+
+	for i, v := range m {
+		fmt.Printf("%v\"s age: %v\n", i, v)
+	}
 }
