@@ -28,7 +28,13 @@ func main() {
 
 	m["Penny"] = 10
 
-	for i, v := range m {
-		fmt.Printf("%v\"s age: %v\n", i, v)
+	for k, v := range m {
+		fmt.Printf("%v\"s age: %v\n", k, v)
+	}
+
+	xi := []int{1, 2, 3, 4, 5}
+
+	for _, v := range xi {
+		fmt.Println(v)
 	}
 }
