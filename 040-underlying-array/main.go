@@ -15,7 +15,7 @@ func main() {
 	fmt.Println(x)
 
 	y := append(x, 5)
-	z := append(x[:1], x[2:]...)
+
 	fmt.Println(y)
 	fmt.Println(z)
 
