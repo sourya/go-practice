@@ -11,5 +11,3 @@ func main() {
 func greeting(s string) {
 	fmt.Println("Hello,", s)
 }
-
-
