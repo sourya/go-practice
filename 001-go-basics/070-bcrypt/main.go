@@ -15,4 +15,12 @@ func main() {
 	fmt.Println(s)
 	fmt.Println(bs)
 
+	wrongPword1 := "qwerty"
+
+	err2 := bcrypt.CompareHashAndPassword(bs, []byte(wrongPword1))
+	if err2 != nil {
+		fmt.Println("YOU CAN'T LOGIN")
+	} else {
+		fmt.Println("You're logged in")
+	}
 }
