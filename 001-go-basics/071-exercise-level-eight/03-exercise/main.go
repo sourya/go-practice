@@ -1,7 +1,9 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
+	"os"
 )
 
 type user struct {
@@ -51,4 +53,8 @@ func main() {
 
 	// your code goes here
 
+	err := json.NewEncoder(os.Stdout).Encode(users)
+	if err != nil {
+		fmt.Println("error:", err)
+	}
 }
