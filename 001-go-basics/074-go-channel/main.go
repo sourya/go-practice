@@ -9,7 +9,7 @@ func doSomething(x int) int {
 
 func main() {
 	ch := make(chan int)
-	
+
 	go func() {
 		ch <- doSomething(5)
 	}()
