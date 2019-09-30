@@ -6,6 +6,8 @@ import (
 	"sync"
 )
 
+// Go race confirmed
+
 func main() {
 	fmt.Println("CPUs:\t\t", runtime.NumCPU())
 	fmt.Println("Goroutines:\t", runtime.NumGoroutine())
