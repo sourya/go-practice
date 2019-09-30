@@ -75,4 +75,10 @@ func main() {
 	fmt.Println("'people' variable below of unmarshal data ----------")
 	fmt.Println(people)
 
+	for i, v := range people {
+		fmt.Println("Person #", i+1)
+		for idx, val := range v.Sayings {
+			fmt.Printf("\t\tSaying #%v: \t %v\n", idx+1, val)
+		}
+	}
 }
