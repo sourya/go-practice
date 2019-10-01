@@ -13,4 +13,3 @@ func main() {
 	fmt.Printf("context type:\t%T\n", ctx)
 	fmt.Println("----------")
 }
-
