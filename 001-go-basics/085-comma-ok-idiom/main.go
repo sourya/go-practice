@@ -18,7 +18,7 @@ func main() {
 
 // send channel
 func send(even, odd chan<- int, quit chan<- bool) {
-	for i := 0; i < 100; i++ {
+	for i := 0; i < 10; i++ {
 		if i%2 == 0 {
 			even <- i
 		} else {
@@ -38,10 +38,10 @@ func receive(even, odd <-chan int, quit <-chan bool) {
 			fmt.Println("the value received from the odd channel:", v)
 		case i, ok := <-quit:
 			if !ok {
-				fmt.Println("from comma ok bit", i)
+				fmt.Println("from comma ok", i)
 				return
 			} else {
-				fmt.Println("from comma ok bit", i)
+				fmt.Println("from comma ok", i)
 			}
 		}
 	}
