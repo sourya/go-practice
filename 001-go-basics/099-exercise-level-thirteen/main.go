@@ -1,4 +1,4 @@
-package starting_code
+package main
 
 import (
 	"fmt"
@@ -16,4 +16,4 @@ func main() {
 		age:  dog.Years(10),
 	}
 	fmt.Println(fido)
-	fmt
+}
