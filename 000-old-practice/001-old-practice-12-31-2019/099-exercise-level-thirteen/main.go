@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/brudnak/go-practice/001-go-basics/099-exercise-level-thirteen/01-exercise/dog"
+	dog2 "github.com/brudnak/go-practice/000-old-practice/001-old-practice-12-31-2019/099-exercise-level-thirteen/01-exercise/dog"
 )
 
 type canine struct {
@@ -13,8 +13,8 @@ type canine struct {
 func main() {
 	fido := canine{
 		name: "Fido",
-		age:  dog.Years(10),
+		age:  dog2.Years(10),
 	}
 	fmt.Println(fido)
-	fmt.Println(dog.YearsTwo(20))
+	fmt.Println(dog2.YearsTwo(20))
 }
