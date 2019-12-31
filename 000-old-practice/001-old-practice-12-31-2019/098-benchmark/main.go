@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/brudnak/go-practice/001-go-basics/098-benchmark/saying"
+	saying2 "github.com/brudnak/go-practice/000-old-practice/001-old-practice-12-31-2019/098-benchmark/saying"
 )
 
 func main() {
-	fmt.Println(saying.Greet("Ruby"))
+	fmt.Println(saying2.Greet("Ruby"))
 }
