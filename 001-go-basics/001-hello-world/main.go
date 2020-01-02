@@ -8,7 +8,9 @@ func main() {
 	fmt.Println("Something else")
 
 	for i := 0; i < 10; i++ {
-		fmt.Println(i)
+		if i%2 == 0 {
+			fmt.Println(i)
+		}
 	}
 }
 
