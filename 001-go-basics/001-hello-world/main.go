@@ -1,10 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	foo2 "github.com/brudnak/go-practice/001-go-basics/001-hello-world/foo"
+)
 
 func main() {
 	fmt.Println("Hello Russell & Ruby!")
-	foo()
+	fmt.Println(foo2.HelloMsg())
 	fmt.Println("Something else")
 
 	for i := 0; i < 10; i++ {
