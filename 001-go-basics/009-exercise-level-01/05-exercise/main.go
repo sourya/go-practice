@@ -9,8 +9,8 @@ type years int
 var age years
 
 
-var age2 int
-var age3 years
+var ageInt int
+var ageYears years
 
 func main() {
 	age = 30
@@ -22,14 +22,14 @@ func main() {
 	fmt.Println(myInt)
 	fmt.Printf("%T\n", myInt)
 
-	age3 := 10
-	fmt.Println(age3)
-	fmt.Printf("%T\n", age3)
+	ageInt = 2
+	fmt.Println(ageInt)
+	fmt.Printf("%T\n", ageInt)
 
-	fmt.Println(age2)
-	fmt.Printf("%T\n", age2)
+	fmt.Println(ageYears)
+	fmt.Printf("%T\n", ageYears)
 
-	age2 := years(age3)
-	fmt.Println(age2)
-	fmt.Printf("%T\n", age2)
+	ageYears = years(ageInt)
+	fmt.Println(ageYears)
+	fmt.Printf("%T\n", ageYears)
 }
