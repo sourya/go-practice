@@ -20,9 +20,13 @@ func main() {
 
 	a = 1
 	b = 1.2
+
 	fmt.Println(a)
 	fmt.Println(b)
 	fmt.Printf("%T\n", a)
 	fmt.Printf("%T\n", b)
 
+	b = 12
+	fmt.Println(b)
+	fmt.Printf("%T\n", b)
 }
