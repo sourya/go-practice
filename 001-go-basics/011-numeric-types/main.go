@@ -4,6 +4,7 @@ import "fmt"
 
 var a int
 var b float64
+var cMax int8 = 127
 
 func main() {
 	x := 19
@@ -29,4 +30,6 @@ func main() {
 	b = 12
 	fmt.Println(b)
 	fmt.Printf("%T\n", b)
+
+	fmt.Println(cMax)
 }
