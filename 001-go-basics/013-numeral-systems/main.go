@@ -10,4 +10,6 @@ func main() {
 
 	n := bs[0]
 	fmt.Printf("%T\n", n)
+	fmt.Printf("%b\n", n)
+	fmt.Printf("%#x\n", n)
 }
