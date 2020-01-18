@@ -6,6 +6,8 @@ const a = 19
 const b = 75.2
 const c = "Russell James"
 const d = "Ruby Genevieve"
+const e = "Jessica Ashlee"
+
 
 func main() {
 	fmt.Println(a)
@@ -17,4 +19,6 @@ func main() {
 	fmt.Printf("%T\n", b)
 	fmt.Printf("%T\n", c)
 	fmt.Printf("%T\n", d)
+	fmt.Printf("%T\n", e)
+
 }
