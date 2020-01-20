@@ -8,7 +8,6 @@ const c = "Russell James"
 const d = "Ruby Genevieve"
 const e = "Jessica Ashlee"
 
-
 func main() {
 	fmt.Println(a)
 	fmt.Println(b)
