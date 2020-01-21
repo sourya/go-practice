@@ -8,6 +8,6 @@ func main() {
 2
 3
 4`
-	
+
 	fmt.Println(s)
 }
