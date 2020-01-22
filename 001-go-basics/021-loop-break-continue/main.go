@@ -8,7 +8,7 @@ func main() {
 		if x > 100 {
 			break
 		}
-		if x % 2 != 0 {
+		if x%2 != 0 {
 			x++
 			continue
 		}

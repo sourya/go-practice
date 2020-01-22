@@ -7,7 +7,6 @@ const (
 	b = 2020 + iota
 	c = 2020 + iota
 	d = 2020 + iota
-
 )
 
 func main() {
