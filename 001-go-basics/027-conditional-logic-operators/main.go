@@ -12,4 +12,3 @@ func main() {
 	fmt.Printf("!true\t\t %v\n", !true)
 	fmt.Printf("!false\t\t %v\n", !false)
 }
-
