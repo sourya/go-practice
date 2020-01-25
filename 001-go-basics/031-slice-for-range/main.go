@@ -11,7 +11,7 @@ func main() {
 	fmt.Println(x[4])
 	fmt.Println("*****")
 
-	for i, v := range x{
+	for i, v := range x {
 		fmt.Println("index", i)
 		fmt.Printf("\tvalue: %v\n", v)
 	}
