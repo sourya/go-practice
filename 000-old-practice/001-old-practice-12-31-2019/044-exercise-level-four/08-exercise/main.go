@@ -6,9 +6,9 @@ import (
 
 func main() {
 	m := map[string][]string{
-		"brudnak_andrew":  []string{"Computer Science", "Reading to my Children", "Sleeping"},
-		"brudnak_russell": []string{"Painting", "Reading", "Dancing"},
-		"brudnak_ruby":    []string{"Toys", "Songs", "Eating Peas"},
+		"brudnak_andrew":  {"Computer Science", "Reading to my Children", "Sleeping"},
+		"brudnak_russell": {"Painting", "Reading", "Dancing"},
+		"brudnak_ruby":    {"Toys", "Songs", "Eating Peas"},
 	}
 
 	for k, v := range m {

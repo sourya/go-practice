@@ -4,12 +4,12 @@ import "fmt"
 
 func main() {
 	x := map[string][]string{
-		"brudnak_andrew": []string{
+		"brudnak_andrew": {
 			"Computer Science",
 			"Playing with Russell & Ruby",
 			"Spending time with Jessie",
 		},
-		"brudnak_russell": []string{
+		"brudnak_russell": {
 			"Watching YouTube",
 			"Painting",
 			"Eating fruit",
