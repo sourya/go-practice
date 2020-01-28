@@ -16,4 +16,7 @@ func main() {
 		fmt.Println(k, v)
 	}
 
+	delete(mk, "Ada")
+	fmt.Println(mk)
+
 }
